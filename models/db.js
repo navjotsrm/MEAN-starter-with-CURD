@@ -27,7 +27,7 @@ var employeeSchema = new mongoose.Schema({
 });
 
 var studentDetailsSchema = new mongoose.Schema({
-  id: { type: Number },
+  id: { type: String },
   subject: { type: String },
   fee: { type: String },
   department: { type : String }
